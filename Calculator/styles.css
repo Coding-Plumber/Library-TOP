@@ -1,0 +1,54 @@
+body {
+    background-color: orange;
+}
+
+.container-parent {
+    display: flex;
+    border: black 1px solid;
+    width: auto;
+    height: auto;
+    margin-top: 20%;
+    justify-content: center;
+
+}
+
+.container-child {
+    height: 460px;
+    width: 300px;
+    border: black 1px solid;
+
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+}
+
+.calculator-display {
+    width: auto;
+    height: 110px;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.all-buttons {
+    padding: 16px;
+    width: auto;
+    height: 100%;
+    
+    
+    
+    
+    
+    border: black 1px dotted;
+}
+
+
+
